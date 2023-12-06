@@ -21,10 +21,13 @@ a:hover {
 
 /* Logo 
 ------------------------------------ */
+#logo h1{
+	float: left; /*usado para fazer a logo flutuar e as barras de navegação ficarem no topo*/
+}
 #logo a {
 	width: 248px;
 	height: 21px;
-	text-indent:  -9999px;
+	text-indent:  -9999px; /* usado para tirar o texto de vizualização */
 	display: block;
 	background: url(../img/logo.png) no-repeat;
 }
